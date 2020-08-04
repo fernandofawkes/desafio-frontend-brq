@@ -19,24 +19,26 @@ criar um registro de atividades com prazo.
 
 ### Listagem
 A primeira tela deve listar as atividades já cadastradas e seus prazos seguindo o seguinte layout:
-![Contribution guidelines for this project](assets/tela1.PNG)
+![listagem de atividades](assets/tela1.PNG)
 
 Nessa tela deve ser possivel escolher o filtro para a lista de atividades, marcar uma atividade como concluída, acessar a página de edição e remover o item.
 
 Para a ação de remover deve ser exibido um aviso confirmando a ação do usuário:
-![Contribution guidelines for this project](assets/tela2.PNG)
+![aviso de exclusão](assets/tela2.PNG)
 
 obs: o prazo deve ser exibido em formato 'amigável', como na imagem.
 
 ### Formulário
 
 A segunda tela deve exibir o formulário de atividade com os campos para título (texto) e prazo (data):
-![Contribution guidelines for this project](assets/tela4.PNG)
+![inclusão de atividade](assets/tela4.PNG)
 
 Nessa tela o usuário deve preencher os campos e salvar caso todas as informações sejam válidas.
 
 Para a edição, o formulário deve ser preenchido com as informações atuais da atividade:
-![Contribution guidelines for this project](assets/tela3.PNG)
+![edição de atividade](assets/tela3.PNG)
+
+estilize da maneira que achar mais confortável, as telas acima são apenas uma base para a estrutura visual. O uso de bibliotecas de estilo como bootstrap ou material é aceitável mas tente explorar o máximo das suas habilidades com css e/ou pré-processadores. 
 
 ## API
 
@@ -55,3 +57,4 @@ PUT https://brq-teste.herokuapp.com/api/atividades/:ID
 
 ### Remover atividade
 DELETE https://brq-teste.herokuapp.com/api/atividades/:ID
+
