@@ -6,7 +6,7 @@ import todosRouter from './routes/todos';
 const app = express();
 app.use(cors());
 app.use(express.json()) // for parsing application/json
-app.use('/todos', todosRouter);
+app.use('/api/todos', todosRouter);
 
 const PORT = process.env.PORT || 4000;
 const uri: string = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.9ixpr.gcp.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
