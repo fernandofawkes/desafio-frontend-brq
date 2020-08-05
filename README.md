@@ -44,17 +44,17 @@ estilize da maneira que achar mais confortável, as telas acima são apenas uma 
 
 os métodos de comunicação com a api estarão disponíveis nos seguintes endpoints:
 ### Listar atividades
-GET https://brq-teste.herokuapp.com/api/atividades
+GET https://brq-teste.herokuapp.com/api/todos
 
 ### Criar atividade
-POST https://brq-teste.herokuapp.com/api/atividades/:ID
+POST https://brq-teste.herokuapp.com/api/todos/:ID
 
 > {title: string, deadline: DateISOString, status: boolean}
 ### Editar atividade
-PUT https://brq-teste.herokuapp.com/api/atividades/:ID
+PUT https://brq-teste.herokuapp.com/api/todos/:ID
 
 > {title: string, deadline: DateISOString, status: boolean}
 
 ### Remover atividade
-DELETE https://brq-teste.herokuapp.com/api/atividades/:ID
+DELETE https://brq-teste.herokuapp.com/api/todos/:ID
 
