@@ -1,0 +1,35 @@
+{
+  "name": "desafio-frontend-brq",
+  "version": "1.0.0",
+  "description": "Obrigado pelo interesse em participar de nossa equipe!\r Nesse documento você encontrará instruções para realizar o teste técnico para atuação como desenvolvedor frontend. Boa sorte!",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.7",
+    "@types/mongoose": "^5.7.34",
+    "@types/node": "^14.0.27",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node -r dotenv/config dist/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandofawkes/desafio-frontend-brq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandofawkes/desafio-frontend-brq/issues"
+  },
+  "homepage": "https://github.com/fernandofawkes/desafio-frontend-brq#readme"
+}
